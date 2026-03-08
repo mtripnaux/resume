@@ -137,10 +137,10 @@ cv:
 
 
 design:
-  theme: modern
+  theme: moderne
   page:
     size: a4
-    top_margin: 1.2cm
+    top_margin: 1.5cm
     bottom_margin: 1.5cm
     left_margin: 1.8cm
     right_margin: 1.8cm
@@ -162,4 +162,4 @@ design:
     space_between_regular_entries: 1.0em
   section_titles:
     space_above: 0.55cm
-    space_below: 0.4cm
+    space_below: 0.2cm
