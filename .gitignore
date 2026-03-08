@@ -1,3 +1,5 @@
 rendercv_output/*
 output/*
 .vscode/*
+*__pycache__/*
+*.pyc

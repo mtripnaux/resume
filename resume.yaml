@@ -137,40 +137,29 @@ cv:
 
 
 design:
-  theme: engineeringresumes
+  theme: modern
   page:
-    size: us-letter
-    top_margin: 1cm
-    bottom_margin: 1cm
-    left_margin: 1cm
-    right_margin: 1cm
-  text:
-    font_family: Libertinus Serif
-    font_size: 10pt
-    alignment: justified
-  colors:
-    text: black
-  section_titles:
-    vertical_space_above: 0.9cm
-    vertical_space_below: 0.6cm
+    size: a4
+    top_margin: 1.2cm
+    bottom_margin: 1.5cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
+    show_footer: false
+    show_top_note: false
+  typography:
+    font_family: Source Sans 3
+    alignment: left
+    line_spacing: 0.65em
   entries:
-    vertical_space_between_entries: 0.7cm
-    left_and_right_margin: 0.5cm
-    short_second_row: true
-  highlights:
-    top_margin: 0.3cm
-    left_margin: 0.2cm
-    vertical_space_between_highlights: 0.2cm
-  header:
-    name_font_size: 20pt
-    name_bold: true
-    vertical_space_between_name_and_connections: 0.5cm
-    use_icons_for_connections: false
-  entry_types:
-    one_line_entry:
-      template: "**LABEL:** DETAILS"
-    education_entry:
-      main_column_first_row_template: "**INSTITUTION**, DEGREE in **AREA**"
-      date_and_location_column_template: "DATE"
-    experience_entry:
-      main_column_first_row_template: "**POSITION** at COMPANY"
+    date_and_location_width: 3.6cm
+    side_space: 0cm
+    short_second_row: false
+    highlights:
+      bullet: "◆"
+      space_left: 0.2cm
+      space_between_items: 0.1cm
+  sections:
+    space_between_regular_entries: 1.0em
+  section_titles:
+    space_above: 0.55cm
+    space_below: 0.4cm
