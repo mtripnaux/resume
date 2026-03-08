@@ -1,0 +1,176 @@
+cv:
+  name: Mathéo Tripnaux-Moreau
+  location: Nice, France
+  email: matheo@tripnaux.com
+  sections:
+    Formal Education:
+      - institution: Université Côte d'Azur
+        degree: Bachelor's Degree
+        area: General Computer Science
+        location: Nice, France
+        start_date: 2024-10
+        end_date: present
+        highlights:
+          - "**Coursework** : Algorithmics, Programming, Relational Algebra, Computation Theory"
+        summary: "Pursued a standard cursus oriented towards computation theory. Specialized in Machine Learning, Formal tools and Low-level Programming ; and was admitted selectively after my double degree."
+
+      - institution: Aix-Marseille Université
+        location: Marseille, France
+        degree: Bachelor's Degree
+        area: Biology and Life Sciences
+        start_date: 2024-11
+        end_date: present
+        highlights:
+        - '**Coursework** : Cellular and Molecular biology, Metabolism, Classical  and Quantum Physics'
+        summary: "Completed partially remotely, alongside the Computer Science degree, in order to establish a robust knowledge base. Specialized in Molecular Dynamics and in Theoretical Biology."
+
+      - institution: Université Paris-Saclay
+        location: Paris, France
+        degree: Double Bachelor's Degree
+        area: Computer Science & Biology
+        start_date: 2023-09
+        end_date: 2024-06
+        highlights:
+          - '**Coursework** : Organic Chemistry, Thermodynamics, Bioinformatics, Linear Algebra, Calculus'
+
+      - institution: Lycée Masséna
+        location: Nice, France
+        degree: European Baccalaureate
+        area: General Pathway
+        start_date: 2021-09
+        end_date: 2023-06
+        highlights:
+          - '**Coursework** : Computer Science, Life and Earth Sciences, Mathematics, French, English'
+          - '**Cambridge English Certificate** : Graduated with a C1 fluency level in English (CEC)'
+
+    Informal Education:
+
+      - institution: Santa Fe Institute
+        degree: Complexity Explorer Courses
+        area: Complex Systems
+        location: Online
+        date: 2026-01
+        summary: "Attended online lectures, followed hands-on tutorials and completed exams (94% grade)."
+        highlights: 
+         - '**Coursework** : Origins of Life, Multi-Agent Systems'
+
+      - institution: Wolfram Research
+        degree: Winter School
+        area: "Hypergraph Rewriting and Wolfram Science"
+        location: Remote
+        start_date: 2025-12
+        end_date: 2026-01
+        summary: "Selected to attend 3 weeks of intensive technical lectures, discussion sessions and structured research exercises related to the Wolfram Physics Projects, the computational approach and the foundations of basic science. Produced and presented a computational essay using Wolfram Language."
+        highlights:
+          - '**Coursework** : Physics, Computation, Ruliology, Metamathematics'
+          - '**Publication** : The Ruliology of Boolean Networks'
+
+      - institution: G.TEC & BR41N.IO 
+        degree: Spring School
+        area: Neurotechnology and Brain-Computer Interfaces
+        location: Online
+        date: 2025-05
+
+#      - institution: Université Côte d'Azur ICON
+#        degree: Spring School
+#        area: "Nonlinear Cell Photonics"
+#        location: Nice, France
+#        date: 2025-04
+
+      - institution: Université Côte d'Azur MECABIONIC
+        degree: Spring School
+        area: Mechanobiology across fields
+        location: Nice, France
+        date: 2025-03
+
+      - institution: Université Côte d'Azur LIFE
+        degree: Winter School
+        area: Mitochondria in health, disease and aging
+        location: Nice, France
+        date: 2024-12
+
+      - institution: Université Côte d'Azur
+        location: Nice, France
+        area: Psychology
+        degree: Free listener
+        start_date: 2022-09
+        end_date: present
+        highlights:
+          - '**Coursework** : Cognitive Science, Neurobiology, Sociology, Statistics'
+        summary: "Followed Bachelor's Degree level courses in parallel with my personal cursus, and successfully passed all the attempted exams. No degree was delivered for this program."
+
+      - institution: INRIA
+        area: Problem Solving and Algorithmics
+        degree: Internship
+        location: Sophia Antipolis, France
+        date: 2019-12
+        highlights:
+          - '**Coursework** : Graph Theory, Discrete Mathematics'
+          - '**Presentation** : Solving the Cops and Robber problem'
+
+    External involvements:
+
+      - company: Synapse Ecosystem
+        position: President and Founder
+        location: Sophia Antipolis, France
+        start_date: 2025-01
+        highlights: 
+          - Partenered with Google Developer Group and the Sophia Hack Lab
+          - Organized on-place Hackathon at Université Côte d'Azur, France
+        summary: "Founded and developed an ecosystem to centralize useful and independant tools, games or media."
+
+      - company: EFELIA 3IA Hackathon (Machine Learning)
+        position: Team Leader
+        date: 2024-12
+        summary: "Presented a new Bayesian approach to solve the menstrual inference problem in mobile applications, and implemented a proof-of-concept Time Series Transformer to demonstrate its efficiency." 
+
+      - company: Evry-Paris-Saclay Team for iGEM Competition
+        position: Dry lab Manager
+        location: Paris, France
+        start_date: 2024-08
+        end_date: 2024-11
+        highlights: 
+          - Awarded a Gold Medal for the project.
+          - Ranked Top 10 Overgraduate Teams.
+          - 'Nominated for the Best Foundational Advance Project.'
+        summary: "Participated to the creation of PHAGEVO, an upgrade of the standard PACE system that allows inducing targeted mutagenesis to evolve proteins. Also built a deep learning model to implement a new approach to designing highly-efficient molecules *in silico*."
+
+
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 1cm
+    bottom_margin: 1cm
+    left_margin: 1cm
+    right_margin: 1cm
+  text:
+    font_family: Libertinus Serif
+    font_size: 10pt
+    alignment: justified
+  colors:
+    text: black
+  section_titles:
+    vertical_space_above: 0.9cm
+    vertical_space_below: 0.6cm
+  entries:
+    vertical_space_between_entries: 0.7cm
+    left_and_right_margin: 0.5cm
+    short_second_row: true
+  highlights:
+    top_margin: 0.3cm
+    left_margin: 0.2cm
+    vertical_space_between_highlights: 0.2cm
+  header:
+    name_font_size: 20pt
+    name_bold: true
+    vertical_space_between_name_and_connections: 0.5cm
+    use_icons_for_connections: false
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, DEGREE in **AREA**"
+      date_and_location_column_template: "DATE"
+    experience_entry:
+      main_column_first_row_template: "**POSITION** at COMPANY"
