@@ -22,10 +22,15 @@
   ],
 {% if not design.entries.short_second_row %}
   main-column-second-row: [
-    #set list(marker: [{{ design.entries.highlights.bullet }}], indent: {{ design.entries.highlights.space_left }}, body-indent: 0.4em)
+    #set list(marker: text(fill: {{ design.colors.body.as_rgb() }}.transparentize(45%))[{{ design.entries.highlights.bullet }}], indent: {{ design.entries.highlights.space_left }}, body-indent: 0.4em)
+    #show list.item: it => text(fill: {{ design.colors.body.as_rgb() }}.transparentize(45%))[#it]
 {% for line in entry.main_column.splitlines()[first_row_lines:] %}
     {{ line|indent(4) }}
+{% if line.strip().startswith('#summary[') %}
+    #v({{ design.entries.highlights.space_between_items }}, weak: false)
+{% else %}
 
+{% endif %}
 {% endfor %}
   ],
 {% endif %}

@@ -1,2 +1,2 @@
-rendercv[full]
+rendercv[full]>=2.7
 flask

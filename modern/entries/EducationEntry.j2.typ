@@ -4,7 +4,7 @@
 {% else %}
 {% set first_row_lines = entry.main_column.splitlines()|length %}
 {% endif %}
-#regular-entry(
+#education-entry(
   [
 {% for line in entry.main_column.splitlines()[:first_row_lines] %}
     {{ line|indent(4) }}
@@ -20,12 +20,21 @@
 
 {% endfor %}
   ],
+{% if design.templates.education_entry.degree_column %}
+  degree-column: [
+    {{ entry.degree_column|indent(4) }}
+  ],
+{% endif %}
 {% if not design.entries.short_second_row %}
   main-column-second-row: [
-    #set list(marker: [{{ design.entries.highlights.bullet }}], indent: {{ design.entries.highlights.space_left }}, body-indent: 0.4em)
+    #show list.item: it => text(fill: {{ design.colors.body.as_rgb() }}.transparentize(45%))[#it]
 {% for line in entry.main_column.splitlines()[first_row_lines:] %}
     {{ line|indent(4) }}
+{% if line.strip().startswith('#summary[') %}
+    #v({{ design.entries.highlights.space_between_items }}, weak: false)
+{% else %}
 
+{% endif %}
 {% endfor %}
   ],
 {% endif %}

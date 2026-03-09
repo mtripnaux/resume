@@ -5,24 +5,24 @@ cv:
   sections:
     Formal Education:
       - institution: Université Côte d'Azur
-        degree: Bachelor's Degree
-        area: General Computer Science
         location: Nice, France
+        degree: Bachelor's Degree
+        area: Computer Science
         start_date: 2024-10
         end_date: present
         highlights:
-          - "**Coursework** : Algorithmics, Programming, Relational Algebra, Computation Theory"
-        summary: "Pursued a standard cursus oriented towards computation theory. Specialized in Machine Learning, Formal tools and Low-level Programming ; and was admitted selectively after my double degree."
-
+          - "Coursework : Algorithmics, Programming, Relational Algebra, Computation Theory"
+          - "Options : Machine Learning, Sets theory, Formal logic, Low-level Programming"
       - institution: Aix-Marseille Université
         location: Marseille, France
         degree: Bachelor's Degree
-        area: Biology and Life Sciences
+        area: Life Sciences
         start_date: 2024-11
         end_date: present
         highlights:
-        - '**Coursework** : Cellular and Molecular biology, Metabolism, Classical  and Quantum Physics'
-        summary: "Completed partially remotely, alongside the Computer Science degree, in order to establish a robust knowledge base. Specialized in Molecular Dynamics and in Theoretical Biology."
+        - 'Coursework : Cellular and Molecular biology, Metabolism, Classical  and Quantum Physics'
+        - 'Options : Molecular Dynamics, Theoretical Biology, Biotechnology, Data Science'
+        summary: "Completed partially remotely, alongside the Computer Science degree."
 
       - institution: Université Paris-Saclay
         location: Paris, France
@@ -31,7 +31,8 @@ cv:
         start_date: 2023-09
         end_date: 2024-06
         highlights:
-          - '**Coursework** : Organic Chemistry, Thermodynamics, Bioinformatics, Linear Algebra, Calculus'
+          - 'Coursework : Organic Chemistry, Thermodynamics, Bioinformatics, Linear Algebra, Calculus'
+        summary: "Moved to Paris to complete this (unique in France) double degree."
 
       - institution: Lycée Masséna
         location: Nice, France
@@ -40,8 +41,7 @@ cv:
         start_date: 2021-09
         end_date: 2023-06
         highlights:
-          - '**Coursework** : Computer Science, Life and Earth Sciences, Mathematics, French, English'
-          - '**Cambridge English Certificate** : Graduated with a C1 fluency level in English (CEC)'
+          - 'Options : Computer Science, Life and Earth Sciences, Mathematics, French, English'
 
     Informal Education:
 
@@ -52,18 +52,19 @@ cv:
         date: 2026-01
         summary: "Attended online lectures, followed hands-on tutorials and completed exams (94% grade)."
         highlights: 
-         - '**Coursework** : Origins of Life, Multi-Agent Systems'
+         - 'Coursework : Origins of Life, Multi-Agent Systems'
 
       - institution: Wolfram Research
         degree: Winter School
-        area: "Hypergraph Rewriting and Wolfram Science"
-        location: Remote
+        area: Hypergraph Rewriting and Wolfram Science
+        location: Online
         start_date: 2025-12
         end_date: 2026-01
-        summary: "Selected to attend 3 weeks of intensive technical lectures, discussion sessions and structured research exercises related to the Wolfram Physics Projects, the computational approach and the foundations of basic science. Produced and presented a computational essay using Wolfram Language."
+        summary: Selected to attend 3 weeks of technical lectures; produced a computational essay.
         highlights:
-          - '**Coursework** : Physics, Computation, Ruliology, Metamathematics'
-          - '**Publication** : The Ruliology of Boolean Networks'
+          - 'Publication : Ruliology of Boolean Networks, Wolfram Community Staff Picks'
+          - 'Coursework : Physics, Computation, Ruliology, Metamathematics'
+          - 'Options : Basic and Foundational Science, Theoretical Physics'
 
       - institution: G.TEC & BR41N.IO 
         degree: Spring School
@@ -71,11 +72,11 @@ cv:
         location: Online
         date: 2025-05
 
-#      - institution: Université Côte d'Azur ICON
-#        degree: Spring School
-#        area: "Nonlinear Cell Photonics"
-#        location: Nice, France
-#        date: 2025-04
+      - institution: Université Côte d'Azur ICON
+        degree: Spring School
+        area: Nonlinear Cell Photonics
+        location: Nice, France
+        date: 2025-04
 
       - institution: Université Côte d'Azur MECABIONIC
         degree: Spring School
@@ -92,12 +93,12 @@ cv:
       - institution: Université Côte d'Azur
         location: Nice, France
         area: Psychology
-        degree: Free listener
+        degree: Bachelor's Degree, Free listener
         start_date: 2022-09
         end_date: present
         highlights:
-          - '**Coursework** : Cognitive Science, Neurobiology, Sociology, Statistics'
-        summary: "Followed Bachelor's Degree level courses in parallel with my personal cursus, and successfully passed all the attempted exams. No degree was delivered for this program."
+          - 'Coursework : Cognitive Science, Neurobiology, Sociology, Statistics'
+        summary: Followed in parallel with my personal cursus. No degree was delivered.
 
       - institution: INRIA
         area: Problem Solving and Algorithmics
@@ -105,35 +106,63 @@ cv:
         location: Sophia Antipolis, France
         date: 2019-12
         highlights:
-          - '**Coursework** : Graph Theory, Discrete Mathematics'
-          - '**Presentation** : Solving the Cops and Robber problem'
+          - 'Coursework : Graph Theory, Discrete Mathematics'
+          - 'Presentation : Solving the Cops and Robber problem'
 
     External involvements:
+
+      - company: Nucleate Université Côte d'Azur
+        position: Member
+        location: Nice, France
+        start_date: 2025-09
+        summary: Contributed to the local chapter of a student-led biotech accelerator.
 
       - company: Synapse Ecosystem
         position: President and Founder
         location: Sophia Antipolis, France
         start_date: 2025-01
+        summary: Built an ecosystem to centralize independant science tools, games and media.
         highlights: 
           - Partenered with Google Developer Group and the Sophia Hack Lab
           - Organized on-place Hackathon at Université Côte d'Azur, France
-        summary: "Founded and developed an ecosystem to centralize useful and independant tools, games or media."
 
       - company: EFELIA 3IA Hackathon (Machine Learning)
         position: Team Leader
         date: 2024-12
-        summary: "Presented a new Bayesian approach to solve the menstrual inference problem in mobile applications, and implemented a proof-of-concept Time Series Transformer to demonstrate its efficiency." 
+        summary: Presented a Bayesian approach to the menstrual inference problem.
+        highlights: 
+         - Implemented a proof-of-concept Time Series Transformer
+         - Predicted >165% better than the current mobile app market
 
       - company: Evry-Paris-Saclay Team for iGEM Competition
         position: Dry lab Manager
         location: Paris, France
         start_date: 2024-08
         end_date: 2024-11
+        summary: Allowed for targeted mutagenesis in phage-assisted protein evolution.
         highlights: 
-          - Awarded a Gold Medal for the project.
-          - Ranked Top 10 Overgraduate Teams.
-          - 'Nominated for the Best Foundational Advance Project.'
-        summary: "Participated to the creation of PHAGEVO, an upgrade of the standard PACE system that allows inducing targeted mutagenesis to evolve proteins. Also built a deep learning model to implement a new approach to designing highly-efficient molecules *in silico*."
+          - Built *in silico* model (Protein Graph Transformer)
+          - Achieved best efficiency for XyLS-TPA binding
+          - Awarded a Gold Medal and Top 10 Overgraduate Teams
+          - Nominated for the Best Foundational Advance Project
+
+    # Publications and Projects:
+
+    #   - name: Free Energy Principle and Epiplexity
+    #     date: present
+    #     url: https://github.com/mtripnaux/bricksbio-api
+    #     highlights:
+    #       - Design d'un circuit génétique utilisant un variant de XylS pour détecter l'acide téréphtalique.
+    #       - Simulation des cinétiques enzymatiques de la PETase et MHETase sous Python.
+    #       - Plus de 50 stars et utilisé par la communauté iGEM.
+
+    #   - name: Bricks.bio Universal API
+    #     date: 2025-09
+    #     url: https://github.com/mtripnaux/bricksbio-api
+    #     highlights:
+    #       - Design d'un circuit génétique utilisant un variant de XylS pour détecter l'acide téréphtalique.
+    #       - Simulation des cinétiques enzymatiques de la PETase et MHETase sous Python.
+    #       - Plus de 50 stars et utilisé par la communauté iGEM.
 
 
 design:
@@ -155,11 +184,14 @@ design:
     side_space: 0cm
     short_second_row: false
     highlights:
-      bullet: "◆"
+      bullet: "■"
       space_left: 0.2cm
       space_between_items: 0.1cm
   sections:
     space_between_regular_entries: 1.0em
   section_titles:
     space_above: 0.55cm
-    space_below: 0.2cm
+    space_below: 0.6cm
+  templates:
+    education_entry:
+      main_column: "**INSTITUTION** — DEGREE in AREA\nSUMMARY\nHIGHLIGHTS"
