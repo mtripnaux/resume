@@ -20,7 +20,6 @@ length_common_description = (
     "It can be specified with units (cm, in, pt, mm, em). For example, `0.1cm`."
 )
 
-
 class Page(BaseModelWithoutExtraKeys):
     size: PageSize = pydantic.Field(
         default="us-letter",
@@ -411,6 +410,22 @@ class Header(BaseModelWithoutExtraKeys):
     connections: Connections = pydantic.Field(
         default_factory=Connections,
         description="Contact information settings.",
+    )
+    background: str | None = pydantic.Field(
+        default=None,
+        description=(
+            "Path to a background image for the header banner (e.g.,"
+            " 'assets/bg.jpg'). The image will be scaled to cover the full banner."
+            " A semi-transparent dark overlay is applied automatically to keep text"
+            " readable. The path should be relative to the rendercv_output/ folder"
+            " (or absolute). Leave empty for the default solid dark background."
+        ),
+    )
+    photo_shape: Literal["circle", "square"] = pydantic.Field(
+        default="circle",
+        description=(
+            "Shape of the profile photo. Options: 'circle' (default), 'square'."
+        ),
     )
 
 

@@ -2,6 +2,7 @@ cv:
   name: Mathéo Tripnaux-Moreau
   location: Nice, France
   email: matheo@tripnaux.com
+  photo: avatar.png
   sections:
     Formal Education:
       - institution: Université Côte d'Azur
@@ -215,6 +216,9 @@ design:
       space_between_items: 0.1cm
   sections:
     space_between_regular_entries: 1.0em
+  header:
+    photo_shape: square  # circle | square
+    background: background.png
   section_titles:
     space_above: 0.55cm
     space_below: 0.6cm
