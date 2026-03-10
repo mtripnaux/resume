@@ -111,11 +111,24 @@ cv:
 
     External involvements:
 
-      - company: Nucleate Université Côte d'Azur
-        position: Member
-        location: Nice, France
-        start_date: 2025-09
-        summary: Contributed to the local chapter of a student-led biotech accelerator.
+      - company: Evry-Paris-Saclay Team for iGEM Competition
+        position: Dry lab Member
+        location: Paris, France
+        start_date: 2025-01
+        end_date: 2025-10
+        summary: Significantly improved photosynthesis efficiency in cyanobacteria.
+        highlights: 
+          - Awarded a Gold Medal, Best Basic Part Nomination
+
+      - company: Genopole D4GEN Hackathon
+        position: Lead Developer and Author
+        location: Paris, France
+        date: 2025-05
+        summary: Developped an automated pipeline for discovery in bioproduction.
+        highlights: 
+          - Implemented universal API for synthetic biology part registries
+          - Built the first container image for biotech with >100 biotools
+          - Founded the Bricks.bio initiative to maintain this ecosystem
 
       - company: Synapse Ecosystem
         position: President and Founder
@@ -146,24 +159,27 @@ cv:
           - Awarded a Gold Medal and Top 10 Overgraduate Teams
           - Nominated for the Best Foundational Advance Project
 
+    Positions of Responsibility:
+
+      - company: International Society for Artificial Life 
+        position: Emerging Researcher
+        location: Online
+        start_date: 2025-12
+
+      - company: Nucleate Université Côte d'Azur
+        position: Member
+        location: Nice, France
+        start_date: 2025-09
+        summary: Contributed to the local chapter of a student-led biotech accelerator.
+
     # Publications and Projects:
 
-    #   - name: Free Energy Principle and Epiplexity
-    #     date: present
-    #     url: https://github.com/mtripnaux/bricksbio-api
-    #     highlights:
-    #       - Design d'un circuit génétique utilisant un variant de XylS pour détecter l'acide téréphtalique.
-    #       - Simulation des cinétiques enzymatiques de la PETase et MHETase sous Python.
-    #       - Plus de 50 stars et utilisé par la communauté iGEM.
-
-    #   - name: Bricks.bio Universal API
-    #     date: 2025-09
-    #     url: https://github.com/mtripnaux/bricksbio-api
-    #     highlights:
-    #       - Design d'un circuit génétique utilisant un variant de XylS pour détecter l'acide téréphtalique.
-    #       - Simulation des cinétiques enzymatiques de la PETase et MHETase sous Python.
-    #       - Plus de 50 stars et utilisé par la communauté iGEM.
-
+    #   - title: Ruliulogy of Boolean Networks
+    #     authors:
+    #       - Matheo Tripnaux
+    #     journal: Wolfram Community Staff Picks
+    #     date: 2026-01
+    #     url: https://community.wolfram.com/groups/-/m/t/3607574
 
 design:
   theme: modern
