@@ -45,12 +45,22 @@ cv:
 
     Informal Education:
 
+      - institution: Neuromatch Academy
+        degree: Summer Course
+        area: Computational Neuroscience
+        location: Online
+        date: 2026-07
+        summary: (Accepted) for 3 weeks full-time on technical tutorials about state-of-the-art modeling.
+        highlights: 
+         - 'Coursework : Causality Research, Stochastic processes, Dynamical Systems'
+         - 'Options : Interpretability, Complex Modeling, Python for Neuroscience'
+
       - institution: Santa Fe Institute
         degree: Complexity Explorer Courses
         area: Complex Systems
         location: Online
         date: 2026-01
-        summary: "Attended online lectures, followed hands-on tutorials and completed exams (94% grade)."
+        summary: Attended online lectures, followed hands-on tutorials and completed exams (94% grade).
         highlights: 
          - 'Coursework : Origins of Life, Multi-Agent Systems'
 
